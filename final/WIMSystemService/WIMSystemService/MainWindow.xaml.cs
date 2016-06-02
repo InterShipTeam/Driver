@@ -28,6 +28,7 @@ namespace WIMSystemService
         private string strDevData = "";
         private string strSubData = "";
         private string strAlarm = "";
+        private string strOverWeight = "";
         public MainWindow()
         {
             InitializeComponent();
@@ -53,7 +54,8 @@ namespace WIMSystemService
                 var xmlAlarm = new XmlSerializer(typeof(AlarmDataInfor));
                 xmlAlarm.UnknownElement += xmlAlarm_UnknownElement;
                 AlarmDataInfor alarm = xmlAlarm.Deserialize(new StringReader(strAlarm)) as AlarmDataInfor;
-                //
+                //overweight
+           
                 reader.Close();
             }
             catch (Exception ex)
@@ -63,6 +65,7 @@ namespace WIMSystemService
 
         }
 
+      
         void xmlAlarm_UnknownElement(object sender, XmlElementEventArgs e)
         {
             strAlarm = e.Element.OuterXml;
