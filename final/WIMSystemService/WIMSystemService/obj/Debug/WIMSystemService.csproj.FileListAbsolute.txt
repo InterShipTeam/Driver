@@ -11,3 +11,16 @@ D:\Project\WIMSystemService\WIMSystemService\obj\Debug\WIMSystemService.Properti
 D:\Project\WIMSystemService\WIMSystemService\obj\Debug\WIMSystemService.csproj.GenerateResource.Cache
 D:\Project\WIMSystemService\WIMSystemService\obj\Debug\WIMSystemService.exe
 D:\Project\WIMSystemService\WIMSystemService\obj\Debug\WIMSystemService.pdb
+D:\InterShipTeam\InterShipTeam\Driver\final\WIMSystemService\WIMSystemService\bin\Debug\WIMSystemService.exe.config
+D:\InterShipTeam\InterShipTeam\Driver\final\WIMSystemService\WIMSystemService\obj\Debug\WIMSystemService.exe
+D:\InterShipTeam\InterShipTeam\Driver\final\WIMSystemService\WIMSystemService\obj\Debug\WIMSystemService.pdb
+D:\InterShipTeam\InterShipTeam\Driver\final\WIMSystemService\WIMSystemService\bin\Debug\WIMSystemService.exe
+D:\InterShipTeam\InterShipTeam\Driver\final\WIMSystemService\WIMSystemService\bin\Debug\WIMSystemService.pdb
+D:\InterShipTeam\InterShipTeam\Driver\final\WIMSystemService\WIMSystemService\obj\Debug\WIMSystemService.csprojResolveAssemblyReference.cache
+D:\InterShipTeam\InterShipTeam\Driver\final\WIMSystemService\WIMSystemService\obj\Debug\MainWindow.baml
+D:\InterShipTeam\InterShipTeam\Driver\final\WIMSystemService\WIMSystemService\obj\Debug\MainWindow.g.cs
+D:\InterShipTeam\InterShipTeam\Driver\final\WIMSystemService\WIMSystemService\obj\Debug\App.g.cs
+D:\InterShipTeam\InterShipTeam\Driver\final\WIMSystemService\WIMSystemService\obj\Debug\WIMSystemService_MarkupCompile.cache
+D:\InterShipTeam\InterShipTeam\Driver\final\WIMSystemService\WIMSystemService\obj\Debug\WIMSystemService.g.resources
+D:\InterShipTeam\InterShipTeam\Driver\final\WIMSystemService\WIMSystemService\obj\Debug\WIMSystemService.Properties.Resources.resources
+D:\InterShipTeam\InterShipTeam\Driver\final\WIMSystemService\WIMSystemService\obj\Debug\WIMSystemService.csproj.GenerateResource.Cache

@@ -3,6 +3,7 @@ using System.Xml.Serialization;
 
 namespace WIMSystemService.XmlElement
 {
+    [XmlType("ALARM")]
     public class AlarmDataInfor
     {
         [XmlAttribute("value")]
@@ -13,7 +14,7 @@ namespace WIMSystemService.XmlElement
         [XmlElement("CLASS")]
         public string VehicleClass { get; set; }
         [XmlElement("TIME")]
-        public DateTime DetectionTime { get; set; }
+        public string DetectionTime { get; set; }
         [XmlElement("LP_FRONT")]
         public string PlateNumberFront { get; set; }
         [XmlElement("LP_FRONT_ILPC")]

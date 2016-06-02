@@ -27,6 +27,7 @@ namespace WIMSystemService
     {
         private string strDevData = "";
         private string strSubData = "";
+        private string strAlarm = "";
         public MainWindow()
         {
             InitializeComponent();
@@ -46,8 +47,13 @@ namespace WIMSystemService
 
                 //SubsystemInfor
                 var xmlserSub = new XmlSerializer(typeof(SubsystemInfor));
+                xmlserSub.UnknownElement += xmlserSub_UnknownElement;
                 SubsystemInfor sub = xmlserSub.Deserialize(new StringReader(strSubData)) as SubsystemInfor;
-
+                //Alarm
+                var xmlAlarm = new XmlSerializer(typeof(AlarmDataInfor));
+                xmlAlarm.UnknownElement += xmlAlarm_UnknownElement;
+                AlarmDataInfor alarm = xmlAlarm.Deserialize(new StringReader(strAlarm)) as AlarmDataInfor;
+                //
                 reader.Close();
             }
             catch (Exception ex)
@@ -55,6 +61,16 @@ namespace WIMSystemService
                 MessageBox.Show(ex.InnerException.ToString());
             }
 
+        }
+
+        void xmlAlarm_UnknownElement(object sender, XmlElementEventArgs e)
+        {
+            strAlarm = e.Element.OuterXml;
+        }
+
+        void xmlserSub_UnknownElement(object sender, XmlElementEventArgs e)
+        {
+            strAlarm = e.Element.OuterXml;
         }
 
         void xmlserDev_UnknownElement(object sender, XmlElementEventArgs e)
