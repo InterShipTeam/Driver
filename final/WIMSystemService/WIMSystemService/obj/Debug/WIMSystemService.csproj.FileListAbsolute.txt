@@ -1,0 +1,13 @@
+D:\Project\WIMSystemService\WIMSystemService\bin\Debug\WIMSystemService.exe.config
+D:\Project\WIMSystemService\WIMSystemService\bin\Debug\WIMSystemService.exe
+D:\Project\WIMSystemService\WIMSystemService\bin\Debug\WIMSystemService.pdb
+D:\Project\WIMSystemService\WIMSystemService\obj\Debug\WIMSystemService.csprojResolveAssemblyReference.cache
+D:\Project\WIMSystemService\WIMSystemService\obj\Debug\MainWindow.baml
+D:\Project\WIMSystemService\WIMSystemService\obj\Debug\MainWindow.g.cs
+D:\Project\WIMSystemService\WIMSystemService\obj\Debug\App.g.cs
+D:\Project\WIMSystemService\WIMSystemService\obj\Debug\WIMSystemService_MarkupCompile.cache
+D:\Project\WIMSystemService\WIMSystemService\obj\Debug\WIMSystemService.g.resources
+D:\Project\WIMSystemService\WIMSystemService\obj\Debug\WIMSystemService.Properties.Resources.resources
+D:\Project\WIMSystemService\WIMSystemService\obj\Debug\WIMSystemService.csproj.GenerateResource.Cache
+D:\Project\WIMSystemService\WIMSystemService\obj\Debug\WIMSystemService.exe
+D:\Project\WIMSystemService\WIMSystemService\obj\Debug\WIMSystemService.pdb
